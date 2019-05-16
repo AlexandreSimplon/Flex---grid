@@ -1,0 +1,20 @@
+div{
+    border: 5px solid red;
+    font-size: 20px;
+}
+
+#all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#all div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}

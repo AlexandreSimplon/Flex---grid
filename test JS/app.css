@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 10px;
+}
+p{
+    padding: 20px;
+}
+.input{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 40%;
+    height: 1.3rem;
+    color: black;
+    background-color: rgb(233, 233, 233);
+    border: brown 2px solid;
+    box-shadow: 3px 3px 3px gray;
+}
+button ,select{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+    margin-bottom: 5px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.div{
+    width: 100%;
+    text-align: center;
+}
+#couleurs{
+    background-color: black;
+    color: beige;
+}
+.red{
+    background-color: red;
+    color: black;
+}
+.bleu{
+    background-color: blue;
+    color: black;
+}
+.vert{
+    background-color: green;
+    color: black;
+}
+.jaune{
+    background-color: yellow;
+    color: black;
+}
+.violet{
+    background-color: violet;
+    color: black;
+}
+.gras{
+    background-color: black;
+    color: beige;
+}
+.italique{
+    background-color: black;
+    color: beige;
+}
+.textarea{
+    text-align: center;
+    width: 60%;
+    height: 15rem;
+    margin-top: 15px;
+    border: brown 2px solid;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px gray;
+}

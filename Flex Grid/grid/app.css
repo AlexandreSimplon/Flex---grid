@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.container{
+    border: 7px solid purple;
+    height: 500px;
+    width: 1000px;
+}
+.row{
+    border: 5px solid green;
+}
+p{
+    border: 2px solid palevioletred;
+}
+#element_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 10px;
+    grid-template-areas: "el1p1 el1p2 el1p3";
+}
+#el1p1{
+    grid-area: el1p1;
+}
+#el1p2{
+    grid-area: el1p2;
+}
+#el1p3{
+    grid-area: el1p3;
+}
+
+#element_2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 10px;
+    grid-template-areas: "el2p1 el2p2";
+}
+#el2p1{
+    grid-area: el2p1;
+}
+#el2p2{
+    grid-area: el2p2;
+}
+
+#element_3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 200px;
+    grid-column-gap: 10px;
+    grid-template-areas:    
+                            "el3p1 el3p2"
+                            "el3p1 el3p3";
+}
+#el3p1{
+    grid-area: el3p1;
+}
+#el3p2{
+    grid-area: el3p2;
+}
+#el3p3{
+    grid-area: el3p3;
+}
+
+#paragraphes{
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+                            "p1 p2 p3"
+                            "p4 p5 p6"
+    ;
+}
+#paragraphes p{
+    border: 3px solid green;
+}
+#p1{
+    grid-area: p1;
+}
+#p2{
+    grid-area: p2;
+}
+#p3{
+    grid-area: p3;
+}
+#p4{
+    grid-area: p4;
+}
+#p5{
+    grid-area: p5;
+}
+#p6{
+    grid-area: p6;
+}
+
+@media screen and (max-width: 768px){
+    #paragraphes{
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+                                "p1"
+                                "p2"
+                                "p3"
+                                "p4"
+                                "p5"
+                                "p6"
+        ;
+    }
+}
